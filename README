@@ -1,0 +1,15 @@
+COMANDO DE SYMFONY
+CREAR NUEVO PROYECTO
+#symfony new myproyeto
+symfony new --webapp my_project
+LEVANTAR EL SERVIDOR
+#symfony server:start
+CREAR CONTROLADOR
+#php bin/console make:controllet
+MIGRACIONES
+#php bin/console doctrine:database:create
+#php bin/console doctrine:migrations:migrate
+CREAR ENTIDAD
+#php bin/console make:entity datosusuario
+CREAR FORMULARIO
+#php bin/console make:from
